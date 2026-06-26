@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f3f6fd;
+  --bg-elevated: #ffffff;
+  --text: #111827;
+  --muted: #5b6475;
+  --brand: #005cc8;
+  --brand-2: #12b3a8;
+  --ok: #0e9f6e;
+  --warn: #ea580c;
+  --danger: #be123c;
+}
+
+.dark {
+  --bg: #091126;
+  --bg-elevated: #111b33;
+  --text: #e6ecff;
+  --muted: #9eb0d2;
+  --brand: #5aa3ff;
+  --brand-2: #2de2d0;
+  --ok: #4ade80;
+  --warn: #fb923c;
+  --danger: #fb7185;
+}
+
+html,
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(18, 179, 168, 0.2), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(0, 92, 200, 0.2), transparent 40%),
+    var(--bg);
+  color: var(--text);
+}
+
+* {
+  border-color: rgba(127, 147, 184, 0.25);
+}
+
+.card {
+  background: linear-gradient(155deg, rgba(255, 255, 255, 0.88), rgba(245, 249, 255, 0.8));
+  border: 1px solid rgba(124, 145, 184, 0.3);
+}
+
+.dark .card {
+  background: linear-gradient(155deg, rgba(18, 27, 51, 0.92), rgba(14, 20, 38, 0.95));
+}

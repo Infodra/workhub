@@ -1,0 +1,33 @@
+# Node
+node_modules/
+.next/
+out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Extra virtual environments at root
+v/
+
+# Debug / one-off scripts (not for production)
+backend/debug_sync.py
+backend/backfill_june.py
+backend/test_permissions.py
+
+# Deployment helper (contains local paths)
+register_service.ps1
