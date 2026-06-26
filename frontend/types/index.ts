@@ -28,6 +28,5 @@ export type EmployeeProfile = {
   AssetType?: string;
   PersonalNumber?: string;
   CompanyNumber?: string;
-};
   [key: string]: unknown;
 };
