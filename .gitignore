@@ -31,3 +31,5 @@ backend/test_permissions.py
 
 # Deployment helper (contains local paths)
 register_service.ps1
+
+tmp_*.py
